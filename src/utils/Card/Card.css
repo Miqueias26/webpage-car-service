@@ -1,0 +1,97 @@
+.cardOf {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.card1 {
+  width: 600px;
+  height: 220px;
+  background-image: url("../../assets/img/KiaModels.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+.card1 a {
+  text-decoration: none;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(251, 251, 251);
+  background: linear-gradient(45deg, #5353530a, #4444448a, #53535342);
+  border-radius: 6px;
+  padding: 0 4px;
+}
+
+.card2,
+.card3,
+.card4 {
+  width: 350px;
+  height: 220px;
+  font-size: 3rem;
+  background: linear-gradient(45deg, #fbfbfb, #f2f2f2, #cacaca);
+  padding-top: 5vh;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+
+.card2 a,
+.card3 a,
+.card4 a {
+  text-decoration: none;
+  border: none;
+  color: rgb(20, 20, 20);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.card5 {
+  border-radius: 1px;
+  width: 600px;
+  height: 220px;
+  font-size: 2rem;
+  background-image: url("../../assets/img/kia-inside.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+
+.card5 a {
+  text-decoration: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(251, 251, 251);
+  background: linear-gradient(45deg, #3e39e00a, #14474b8a, #4992fe42);
+  border-radius: 6px;
+  padding: 0 4px;
+}
+
+/* animation */
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .cardOf {
+    display: flex;
+    flex-direction: column;
+  }
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    text-align: center;
+    width: auto;
+  }
+}

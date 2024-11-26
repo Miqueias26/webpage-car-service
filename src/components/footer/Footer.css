@@ -1,0 +1,53 @@
+.footer {
+  display: flex;
+  margin-top: 4vh;
+  background: linear-gradient(45deg, #1a1a1a, #2f2f2f, #000000);
+  padding-bottom: 1px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.kia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.kia img {
+  width: 200px;
+}
+.kia .moviment-text {
+  color: white;
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+.copyright {
+  border: none;
+  font-family: "roboto", sans-serif;
+  color: white;
+  font-size: 0.6rem;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.footer-content p {
+  font-family: "roboto", sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.footer-content a {
+  text-decoration: none;
+  border: none;
+  font-family: "roboto", sans-serif;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.footer-content a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,71 @@
+/* Estilos gerais do Header */
+.Header {
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.logo img {
+  width: 170px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.justify-content-end flex-grow-1 pe-3 {
+  color: white;
+}
+
+.custom-nav .nav-link {
+  color: white;
+}
+.custom-nav .nav-link:hover {
+  color: rgb(191, 191, 191);
+  text-decoration: underline;
+}
+
+.d-flex button {
+  color: rgb(35, 35, 35);
+  background: linear-gradient(45deg, #ffff, #ffff, #ffff);
+}
+.d-flex button:hover {
+  color: white;
+  border: none;
+  background: linear-gradient(45deg, #ffff, #b4b4b4, #ffff);
+}
+
+@media (max-width: 768px) {
+  .custom-nav .nav-link {
+    color: black;
+  }
+
+  .d-flex {
+    padding-top: 40vh;
+  }
+
+  .menu-Smart1 {
+    background: linear-gradient(45deg, #e4e4e4, #ffff, #ffff);
+  }
+  .menu-Smart2 {
+    background: linear-gradient(45deg, #393939, #ffff, #cdcdcd);
+  }
+
+  .Header {
+    display: flex;
+    width: auto;
+    height: 90vh;
+    flex-direction: column;
+  }
+}

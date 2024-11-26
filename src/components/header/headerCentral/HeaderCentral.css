@@ -1,0 +1,70 @@
+.header-down {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  margin-top: 40vh;
+}
+.header-down h1 {
+  background: linear-gradient(45deg, #ffffff, #ebebeb, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  visibility: text;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.buttons-left {
+  text-align: center;
+  display: flex;
+  gap: 18px;
+  margin-top: 6px;
+}
+
+.buttons-left button,
+a {
+  background: none;
+  color: rgb(255, 255, 255);
+  border: solid white;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease-in-out;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-family: "roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.buttons-left a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttons-left a:hover {
+  background: linear-gradient(45deg, #ffff, #d9d9d9, #ffff);
+  color: rgb(48, 48, 48);
+  transform: scale(1.1);
+  border: none;
+}
+
+.buttons-left button:hover {
+  background: linear-gradient(45deg, #ffff, #d9d9d9, #ffff);
+  color: rgb(48, 48, 48);
+  transform: scale(1.1);
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .header-down {
+    font-size: 14px;
+    margin-top: 22dvh;
+  }
+
+  .buttons-left {
+    font-size: 1rem;
+    flex-direction: column;
+  }
+}
