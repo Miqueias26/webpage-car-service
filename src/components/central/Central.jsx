@@ -22,7 +22,7 @@ const Central = () => {
     <>
       <div className="MainCentral">
         <span>
-          &nbsp;KIA MOVEMENT THAT ISPIRES.&nbsp;KIA MOVEMENT THAT ISPIRES.
+          &nbsp;KIA MOVEMENT THAT ISPIRES.&nbsp;KIA MOVEMENT THAT ISPIRES. teste
           &nbsp;KIA MOVEMENT THAT ISPIRES.&nbsp;KIA MOVEMENT THAT ISPIRES.&nbsp;
         </span>
       </div>
